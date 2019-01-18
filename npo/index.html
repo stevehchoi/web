@@ -1,0 +1,1968 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>NPO</title>
+    <meta name="Resource-type" content="Document"/>
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/prism.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/examples.css"/>
+    <link rel="stylesheet" href="css/index.css">
+
+    <!--[if IE]>
+    <script type="text/javascript">
+        var console = {
+            log: function () {
+            }
+        };
+    </script>
+    <![endif]-->
+</head>
+<body>
+
+<header>
+    <div class="left">
+        <h1 class="title-date">2013 &mdash; <br> 2018</h1>
+        <a href="#index">
+        <h2 class="title">서울시NPO지원센터 <br> 소셜미디어 보고서</h2>
+        </a>
+    </div>
+    <div class="center-vertical-2 pc"></div>
+    <ul class="pc" id="menu" style="display: none;">
+        <li data-menuanchor="news-1" class="news-menu" class="active"><a href="#news-1"></a></li>
+        <li data-menuanchor="face-1" class="face-menu"><a href="#face-1"></a></li>
+        <li data-menuanchor="blog-1" class="blog-menu"><a href="#blog-1"></a></li>
+        <li data-menuanchor="aka-1" class="aka-menu"><a href="#aka-1"></a></li>
+    </ul>
+</header>
+<div class="horizontal-vertical"></div>
+
+<div style="position:fixed;top:50px;left:50px;color:white;z-index:-1;" id="callbacksDiv"></div>
+<div class="page dn pc">
+    <h3 style="font-weight: lighter;"><span id="current">1</span> / <span id="end">6</span></h3>
+</div>
+<div class="main-left nav-p nav-ani dn news-nav pc">
+    <h1 class="nav-title">뉴스레터</h1>
+    <ul class="nav">
+        <li id="news-2-li"><a href="#news-2"><i class="fa fa-circle circle dn"></i> 숫자로 보는 데이터</a></li>
+        <li id="news-3-li"><a href="#news-3"><i class="fa fa-circle circle dn"></i> 구독자수 증감 그래프</a></li>
+        <li id="news-4-li"><a href="#news-4"><i class="fa fa-circle circle dn"></i> 오픈률 증감 그래프</a></li>
+        <li id="news-5-li"><a href="#news-5"><i class="fa fa-circle circle dn"></i> 가장 인기있었던 뉴스레터 Top 3</a></li>
+        <li id="news-6-li"><a href="#news-6"><i class="fa fa-circle circle dn"></i> 2018 뉴스레터 특징</a></li>
+    </ul>
+</div>
+<div class="main-left nav-p nav-ani dn face-nav pc">
+    <h1 class="nav-title">페이스북</h1>
+    <ul class="nav">
+        <li id="face-2-li"><a href="#face-2"><i class="fa fa-circle circle dn"></i> 숫자로 보는 데이터</a></li>
+        <li id="face-3-li"><a href="#face-3"><i class="fa fa-circle circle dn"></i> 팔로워수 그래프</a></li>
+        <li id="face-4-li"><a href="#face-4"><i class="fa fa-circle circle dn"></i> 게시물 참여율 그래프</a></li>
+        <li id="face-5-li"><a href="#face-5"><i class="fa fa-circle circle dn"></i> 가장 참여율 높은 포스트 Top 3</a></li>
+        <li id="face-6-li"><a href="#face-6"><i class="fa fa-circle circle dn"></i> 최고 접속 시간대</a></li>
+    </ul>
+</div>
+<div class="main-left nav-p nav-ani dn blog-nav pc" style="width: 225px;">
+    <h1 class="nav-title">블로그</h1>
+    <ul class="nav">
+        <li id="blog-2-li"><a href="#blog-2"><i class="fa fa-circle circle dn"></i> 숫자로 보는 데이터</a></li>
+        <li id="blog-3-li"><a href="#blog-3"><i class="fa fa-circle circle dn"></i> 컨텐츠수 그래프</a></li>
+        <li id="blog-4-li"><a href="#blog-4"><i class="fa fa-circle circle dn"></i> 월별 조회수 그래프</a></li>
+        <li id="blog-5-li"><a href="#blog-5"><i class="fa fa-circle circle dn"></i> 년도별 가장 인기있었던 블로그 포스트</a></li>
+        <li id="blog-6-li"><a href="#blog-6"><i class="fa fa-circle circle dn"></i> 검색어 순위</a></li>
+    </ul>
+</div>
+<div class="main-left nav-p nav-ani dn aka-nav pc">
+    <h1 class="nav-title">아카이브</h1>
+    <ul class="nav">
+        <li id="aka-2-li"><a href="#aka-2"><i class="fa fa-circle circle dn"></i> 숫자로 보는 데이터</a></li>
+        <li id="aka-3-li"><a href="#aka-3"><i class="fa fa-circle circle dn"></i> 컨텐츠수 그래프</a></li>
+        <li id="aka-4-li"><a href="#aka-4"><i class="fa fa-circle circle dn"></i> 컨텐츠 유형 그래프</a></li>
+        <li id="aka-5-li"><a href="#aka-5"><i class="fa fa-circle circle dn"></i> 가장 인기있었던 아카이브 Top 3</a></li>
+        <li id="aka-6-li"><a href="#aka-6"><i class="fa fa-circle circle dn"></i> 가장 많이 다룬 키워드</a></li>
+        <li id="aka-7-li"><a href="#aka-7"><i class="fa fa-circle circle dn"></i> 2018 아카이브 특징</a></li>
+    </ul>
+</div>
+<div id="fullpage">
+    <div class="section active" id="section0">
+        <div class="center-vertical-2 pc"></div>
+        <div class="main-left">
+            <p class="main-content">
+                <a href="http://www.snpo.kr/" class="red-line"><span class="red">서울시NPO지원센터</span></a>
+                는 2013년부터 다채로운 SNS 채널을 통해 센터의 활동을 알려왔습니다
+            </p>
+            <p class="main-content">
+                NPO 영역에서 활동하는 실무자나 공익활동에 관심 있는 시민들에게 도움이 되는 정보들을 공유하고 시민사회가 만들어온 사회 변화를 널리 알리기 위해 센터가 가진 채널을 활용해왔어요.
+            </p>
+            <p class="main-content">
+                이 곳에서는 센터의 주요 채널
+                <a href="" class="c-news-line"><span class="c-news">뉴스레터</span></a>
+                <a href="" class="c-face-line"><span class="c-face">페이스북</span></a>
+                <a href="" class="c-blog-line"><span class="c-blog">블로그</span></a>
+                <a href="" class="c-aka-line"><span class="c-aka">아카이브</span></a>의 통계현황을 보여드리려고 합니다.
+                통계 수치로 센터를 만나보세요.
+            </p>
+        </div>
+        <div class="main-right">
+            <ul class="menu-list">
+                <li data-menuanchor="news-1" id="news-hover" style="margin-top: -2px;">
+                    <a href="#news-1" class="c-news news-hover">뉴스레터</a>
+                    <a href="#news-1" class="mini news-a news-hover"></a>
+                </li>
+                <li data-menuanchor="face-1" id="face-hover">
+                    <a href="#face-1" class="c-face face-hover">페이스북</a>
+                    <a href="#face-1" class="mini face-a face-hove"></a>
+                </li>
+                <li data-menuanchor="blog-1" id="blog-hover">
+                    <a href="#blog-1" class="c-blog blog-hover">블로그</a>
+                    <a href="#blog-1" class="mini blog-a blog-hover"></a>
+                </li>
+                <li data-menuanchor="aka-1" id="aka-hover">
+                    <a href="#aka-1" class="c-aka aka-hover">아카이브</a>
+                    <a href="#aka-1" class="mini aka-a aka-hover"></a>
+                </li>
+            </ul>
+            <img src="img/npo-logo@2x.png" class="npo-logo">
+            <div class="mobile" style="height: 240px;"></div>
+        </div>
+        <p class="credit">디자인 김재환, 최석환 웹 개발 권순우</p>
+    </div>
+    <div class="section" id="news-sec-1">
+        <div class="center-vertical"></div>
+        <div class="mh"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title mobile">뉴스레터</h1>
+                <div class="img-line">
+                    <img src="img/news@2x.png">
+                    <a href="http://eepurl.com/c7Gps9" class="img-link" target="_blank">센터 뉴스레터 구독하기</a>
+                </div>
+                <p class="comment">
+                    센터의 한 달 살이가 궁금하다면, 뉴스레터를 주목해주세요.
+                    센터에서 하고 있는 모든 활동을 월 단위로 소개하는 채널입니다.
+                    센터 행사는 물론, NPO 영역의 다양한 소식도 함께 전합니다.
+                </p>
+                <div class="comment-line"></div>
+                <p class="comment-2">
+                    2014년 4월 3일 센터는 첫 뉴스레터 발송 서비스를 시작했어요. <br>
+                    메일발송 서비스로는 오즈메일러를 이용하다 2016년에 메일침프를 2019년부터는 스티비를 씁니다.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="news-sec-2">
+        <div class="center-vertical"></div>
+        <div class="mobile mh-2"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title">숫자로 보이는 데이터</h1>
+                <div class="box">
+                    <div class="box-1 box1">
+                        <h2>뉴스레터 횟수</h2>
+                        <p class="number count news-count-1">0</p>
+                        <p class="box-comment">
+                            2018년 12월 3일 기준
+                        </p>
+                    </div>
+                    <div class="box-1">
+                        <h2>구독자수 횟수</h2>
+                        <p class="number count news-count-2">0</p>
+                        <p class="box-comment">
+                            2018년 12월 3일 기준
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--<p class="comment">-->
+                    <!--뉴스레터를 NPO센터의 소식을 내 메일함에서 쉽게, <br>-->
+                    <!--그리고 정기적으로 받아볼 수 있는 채널입니다.-->
+                <!--</p>-->
+            </div>
+        </div>
+    </div>
+    <div class="section" id="news-sec-3">
+        <div class="center-vertical"></div>
+        <div class="z-box mt-80">
+            <div class="intro">
+                <h1 class="section-title">구독자수 증감 그래프</h1>
+                <p class="date-comment">2016.06.01-2018.12.31</p>
+                <p class="comment">
+                    뉴스레터 구독자수는 수신거부, 바운스 등으로 줄어들 때도 있었으나 꾸준히 늘고 있습니다.
+                    특히 NPO 파트너 페어가 열릴 때마다 신청자가 대폭 증가했어요.
+                </p>
+            </div>
+        </div>
+        <div style="height: 320px;"></div>
+        <div class="chart-line dragscroll" id="news-chart-1">
+            <div class="next" id="news-chart-1-next"><img src="img/arrow.png"></div>
+            <ul class="">
+                <li style="border: 0;">
+                    <p><br></p>
+                    <div class="day"></div>
+                    <div class="years"></div>
+                </li>
+                <li>
+                    <p class="count">5621</p>
+                    <div class="chart-bar char1" data-target="34%"></div>
+                    <div class="day">05</div>
+                    <div class="years">2016</div>
+                </li>
+                <li>
+                    <p class="count">5294</p>
+                    <div class="chart-bar char2" data-target="30%"></div>
+                    <div class="day">06</div>
+                </li>
+                <li>
+                    <p class="count">5942</p>
+                    <div class="chart-bar char3" data-target="38%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">6153</p>
+                    <div class="chart-bar char5" data-target="40%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">6421</p>
+                    <div class="chart-bar char6" data-target="44%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">6434</p>
+                    <div class="chart-bar char6" data-target="45%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">6474</p>
+                    <div class="chart-bar char7" data-target="46%"></div>
+                    <div class="day">11</div>
+                </li>
+                <li>
+                    <p class="count">6431</p>
+                    <div class="chart-bar char8" data-target="45%"></div>
+                    <div class="day">12</div>
+                </li>
+
+                <li>
+                    <p class="count">6429</p>
+                    <div class="chart-bar char9" data-target="44%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2017</div>
+                </li>
+                <li>
+                    <p class="count">6412</p>
+                    <div class="chart-bar char10" data-target="43%"></div>
+                    <div class="day">02</div>
+                </li>
+                <li>
+                    <p class="count">6317</p>
+                    <div class="chart-bar char11" data-target="42%"></div>
+                    <div class="day">03</div>
+                </li>
+                <li>
+                    <p class="count">6274</p>
+                    <div class="chart-bar char12" data-target="40%"></div>
+                    <div class="day">06</div>
+                </li>
+                <li>
+                    <p class="count">6221</p>
+                    <div class="chart-bar char13" data-target="39%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">6182</p>
+                    <div class="chart-bar char14" data-target="36%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">6312</p>
+                    <div class="chart-bar char15" data-target="41.5%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">6188</p>
+                    <div class="chart-bar char16" data-target="39%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">7581</p>
+                    <div class="chart-bar char17" data-target="60%"></div>
+                    <div class="day">11</div>
+                    <div class="chart-tag">10월에 열린 2017 NPO파트너페어 관람객으로 인해 구독자수가 대폭 늘었습니다.</div>
+                </li>
+                <li>
+                    <p class="count">7581</p>
+                    <div class="chart-bar char18" data-target="61%"></div>
+                    <div class="day">12</div>
+                </li>
+                <li>
+                    <p class="count">7582</p>
+                    <div class="chart-bar char19" data-target="65%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2018</div>
+                </li>
+                <li>
+                    <p class="count">7723</p>
+                    <div class="chart-bar char20" data-target="63%"></div>
+                    <div class="day">02</div>
+                </li>
+
+                <li>
+                    <p class="count">7521</p>
+                    <div class="chart-bar char21" data-target="56%"></div>
+                    <div class="day">03</div>
+                </li>
+                <li>
+                    <p class="count">7494</p>
+                    <div class="chart-bar char22" data-target="57%"></div>
+                    <div class="day">04</div>
+                </li>
+                <li>
+                    <p class="count">7497</p>
+                    <div class="chart-bar char23" data-target="59%"></div>
+                    <div class="day">05</div>
+                </li>
+                <li>
+                    <p class="count">7518</p>
+                    <div class="chart-bar char24" data-target="58.5%"></div>
+                    <div class="day">06</div>
+                </li>
+                <li>
+                    <p class="count">7517</p>
+                    <div class="chart-bar char25" data-target="53%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">7396</p>
+                    <div class="chart-bar char26" data-target="61%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">7609</p>
+                    <div class="chart-bar char27" data-target="66%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">7879</p>
+                    <div class="chart-bar char28" data-target="68%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">8989</p>
+                    <div class="chart-bar char29" data-target="70%"></div>
+                    <div class="day">11</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="section" id="news-sec-4">
+        <div class="center-vertical"></div>
+        <div class="z-box mt-80">
+            <div class="intro">
+                <h1 class="section-title">오픈률 증감 그래프</h1>
+                <p class="date-comment">2016-2018</p>
+                <p class="comment">
+                    비영리분야의 뉴스레터 평균 오픈율은 19.3% 이내.
+                    센터의 뉴스레터는 2018년 상반기까지는 20%를 훨씬 상회했습니다.
+                    하반기부터 하락세 이지만 여러 방안을 통해 2019년에 다시 도약하려 합니다.
+                </p>
+            </div>
+        </div>
+        <div style="height: 320px;"></div>
+        <div class="chart-line" id="news-chart-2">
+            <div class="next" id="news-chart-2-next"><img src="img/arrow.png"></div>
+            <ul>
+                <li style="border: 0;">
+                    <p><br></p>
+                    <div class="day"></div>
+                    <div class="years"></div>
+                </li>
+                <li>
+                    <p><span class="count">27</span>.3%</p>
+                    <div class="chart-bar char1" data-target="47.3%"></div>
+                    <div class="day">26</div>
+                    <div class="years">뉴스레터번호</div>
+                </li>
+                <li>
+                    <p><span class="count">23</span>.1%</p>
+                    <div class="chart-bar char2" data-target="43.1%"></div>
+                    <div class="day">27</div>
+                </li>
+                <li>
+                    <p><span class="count">21</span>%</p>
+                    <div class="chart-bar char3" data-target="41%"></div>
+                    <div class="day">28</div>
+                </li>
+                <li>
+                    <p><span class="count">21</span>.6%</p>
+                    <div class="chart-bar char5" data-target="41.6%"></div>
+                    <div class="day">29.2</div>
+                </li>
+                <li>
+                    <p><span class="count">24</span>.3%</p>
+                    <div class="chart-bar char6" data-target="44.3%"></div>
+                    <div class="day">30</div>
+                </li>
+                <li>
+                    <p><span class="count">30</span>.7%</p>
+                    <div class="chart-bar char6" data-target="50.7%"></div>
+                    <div class="day">31</div>
+                </li>
+                <li>
+                    <p><span class="count">18</span>.6%</p>
+                    <div class="chart-bar char7" data-target="38.6%"></div>
+                    <div class="day">32</div>
+                </li>
+                <li>
+                    <p><span class="count">20</span>.3%</p>
+                    <div class="chart-bar char8" data-target="40.3%"></div>
+                    <div class="day">33</div>
+                </li>
+
+                <li>
+                    <p><span class="count">20</span>.9%</p>
+                    <div class="chart-bar char9" data-target="40.9%"></div>
+                    <div class="day">34</div>
+                </li>
+                <li>
+                    <p><span class="count">29</span>.6%</p>
+                    <div class="chart-bar char10" data-target="49.6%"></div>
+                    <div class="day">35</div>
+                </li>
+                <li>
+                    <p><span class="count">27</span>.4%</p>
+                    <div class="chart-bar char11" data-target="47.4%"></div>
+                    <div class="day">36</div>
+                </li>
+                <li>
+                    <p><span class="count">23</span>.4%</p>
+                    <div class="chart-bar char12" data-target="43.4%"></div>
+                    <div class="day">37</div>
+                </li>
+                <li>
+                    <p><span class="count">43</span>.7%</p>
+                    <div class="chart-bar char13" data-target="63.7%"></div>
+                    <div class="day">38</div>
+                </li>
+                <li>
+                    <p><span class="count">42</span>.9%</p>
+                    <div class="chart-bar char14" data-target="62.9%"></div>
+                    <div class="day">39</div>
+                </li>
+                <li>
+                    <p><span class="count">41</span>.8%</p>
+                    <div class="chart-bar char15" data-target="61.8%"></div>
+                    <div class="day">40</div>
+                </li>
+                <li>
+                    <p><span class="count">20</span>.6%</p>
+                    <div class="chart-bar char16" data-target="40.6%"></div>
+                    <div class="day">41</div>
+                </li>
+                <li>
+                    <p><span class="count">18</span>.8%</p>
+                    <div class="chart-bar char17" data-target="38.8%"></div>
+                    <div class="day">42</div>
+                </li>
+                <li>
+                    <p><span class="count">21</span>.7%</p>
+                    <div class="chart-bar char18" data-target="41.7%"></div>
+                    <div class="day">43.2</div>
+                </li>
+                <li>
+                    <p><span class="count">26</span>.1%</p>
+                    <div class="chart-bar char19" data-target="46.1%"></div>
+                    <div class="day">44</div>
+                </li>
+                <li>
+                    <p><span class="count">25</span>.2%</p>
+                    <div class="chart-bar char20" data-target="45.2%"></div>
+                    <div class="day">45</div>
+                </li>
+
+                <li>
+                    <p><span class="count">25</span>%</p>
+                    <div class="chart-bar char21" data-target="45%"></div>
+                    <div class="day">46</div>
+                </li>
+                <li>
+                    <p><span class="count">38</span>.7%</p>
+                    <div class="chart-bar char22" data-target="58.7%"></div>
+                    <div class="day">47</div>
+                </li>
+                <li>
+                    <p><span class="count">16</span>.7%</p>
+                    <div class="chart-bar char23" data-target="36.7%"></div>
+                    <div class="day">48</div>
+                </li>
+                <li>
+                    <p><span class="count">15</span>.7%</p>
+                    <div class="chart-bar char24" data-target="35.7%"></div>
+                    <div class="day">49</div>
+                </li>
+                <li>
+                    <p><span class="count">19</span>.1%</p>
+                    <div class="chart-bar char25" data-target="39.1%"></div>
+                    <div class="day">50.1</div>
+                </li>
+                <li>
+                    <p><span class="count">20</span>.8%</p>
+                    <div class="chart-bar char26" data-target="40.8%"></div>
+                    <div class="day">51</div>
+                </li>
+                <li>
+                    <p><span class="count">17</span>.2%</p>
+                    <div class="chart-bar char27" data-target="37.2%"></div>
+                    <div class="day">52</div>
+                </li>
+                <li>
+                    <p><span class="count">16</span>.3%</p>
+                    <div class="chart-bar char28" data-target="36.3%"></div>
+                    <div class="day">53</div>
+                </li>
+                <li>
+                    <p><span class="count">18</span>.6%</p>
+                    <div class="chart-bar char29" data-target="38.6%"></div>
+                    <div class="day">54</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="section" id="news-sec-5">
+        <div class="center-vertical"></div>
+        <div class="mobile mh-2"></div>
+        <div class="pc mh"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title">가장 인기있었던 뉴스 레터 Top 3</h1>
+                <p class="date-comment">오픈률 기준</p>
+                <div class="box-ani">
+                    <a href="https://mailchi.mp/seoulnpocenter/npo-snjars1dwe" target="_blank">
+                        <div class="box-slide" id="box-slide-1">
+                            <div class="slide-hide">
+                                <h1>#1</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2017</span> <br>
+                                    NPO 국제 컨퍼런스 <br>‘변화는 어디서 오는가?’
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/39-startfragment" target="_blank">
+                        <div class="box-slide" id="box-slide-2">
+                            <div class="slide-hide">
+                                <h1>#2</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18"></span>
+                                    비영리 스타트업, <br>
+                                    성장 시나리오를 쓰다 <br>
+                                    Start Fragment
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/38" target="_blank">
+                        <div class="box-slide" id="box-slide-3">
+                            <div class="slide-hide">
+                                <h1>#3</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18"></span> <br>
+                                    확 바뀐 타기관 <br>
+                                    지원사업 게시판을 <br>
+                                    소개합니다
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+                <div class="mobile" style="height: 40px;"></div>
+                <p class="comment w-40">
+                    38호—40호는 평균 오픈율/클릭률보다 2배 이상 높았습니다.
+                    (오픈율 40% 대, 클릭률 30% 대)들이 있습니다. 비영리스타트업,
+                    국제컨퍼런스 등 센터에서 처음으로 하는 사업을 메일 제목으로 내세웠던 게
+                    영향을 미친 것으로 추측됩니다.
+                </p>
+                <div class="mobile mh-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="news-sec-6">
+        <div class="center-vertical"></div>
+        <div class="mh-2"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title">2018 뉴스레터 특징</h1>
+                <ul class="circle-content" id="circle-content-1">
+                    <li>
+                        <img src="img/circle-1.png" alt="">
+                        <p>세부 내용 콘텐츠별로 소개해
+                            클릭 유도했어요 </p>
+                    </li>
+                    <li>
+                        <img src="img/ft%20-2@2x.png" alt="">
+                        <p>센터 구성원들의 에디터 노트와
+                            그달의 사진을 넣었어요. </p>
+                    </li>
+                    <li>
+                        <img src="img/ft%20-1@2x.png" alt="">
+                        <p>그달의 NPO소식과 신규 아카이브
+                            자료를 빠짐 없이 실었어요. </p>
+                    </li>
+                    <li>
+                        <img src="img/ft%20600@2x.png" alt="">
+                        <p>추천하고 싶은 비영리 단체 <br>
+                            뉴스레터 1위! <br><br>
+                        <span style="font-size: 11px;">(2018년 6월 센터 뉴스레터 구독자 대상 설문조사 결과)</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mh-2"></div>
+    </div>
+    <!--============ face ============-->
+    <div class="section" id="face-sec-1">
+        <div class="center-vertical"></div>
+        <div class="mobile mh-2"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title mobile">페이스북</h1>
+                <div class="img-line">
+                    <img src="img/facebook@2x.png">
+                    <a href="http://www.facebook.com/seoulnpocenter" class="img-link" target="_blank">www.facebook.com/seoulnpocenter</a>
+                </div>
+                <p class="comment">
+                    센터 공지사항의 제 1 채널로써 정보를 적시에 제공하려는 채널입니다. 댓글에서 질문을 주시면 가장 빨리 답변을 드릴 수 있는 곳이죠.
+                </p>
+                <div class="comment-line"></div>
+                <p class="comment-2">
+                    2014년부터 페이지를 운영하기 시작했어요. 이 공식 채널 외에 국제컨퍼런스, NPO의제포럼,
+                    미트쉐어, 품다 전시회 등 개별 사업 페이지도 운영했었던 적이 있습니다.
+                </p>
+            </div>
+        </div>
+        <div class="mobile mh-2"></div>
+    </div>
+    <div class="section" id="face-sec-2">
+        <div class="center-vertical"></div>
+        <div class="mobile mh-2"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title">숫자로 보이는 데이터</h1>
+                <div class="box">
+                    <div class="box-1 box1">
+                        <h2>총 게시물 수</h2>
+                        <p class="number count">87</p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="box-1 box1">
+                        <h2>연령대</h2>
+                        <p class="number"><span class="count">25</span>-<span class="count">34</span></p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="box-1" id="mo">
+                        <h2>남:여 비율</h2>
+                        <p class="number"><span class="count">42</span>:<span class="count">57</span></p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <p class="comment">
+                </p>
+            </div>
+        </div>
+        <div class="mobile mh-2"></div>
+    </div>
+    <div class="section" id="face-sec-3">
+        <div class="center-vertical"></div>
+        <div class="z-box mt-80">
+            <div class="intro">
+                <h1 class="section-title">팔로워수 그래프</h1>
+                <p class="date-comment">2016-2018</p>
+                <p class="comment">
+                    뉴스레터 구독자와 마찬가지로 2017 NPO 파트너 페어로 팔로워가 대폭 늘었습니다. (feat. 파트너 페어가 효녀효자)
+                </p>
+            </div>
+        </div>
+        <div style="height: 320px;"></div>
+        <div class="chart-line face-chart" id="face-chart-1">
+            <div class="next" id="face-chart-1-next"><img src="img/arrow.png"></div>
+            <ul>
+                <li style="border: 0;">
+                    <p><br></p>
+                    <div class="day"></div>
+                    <div class="years"></div>
+                </li>
+                <li>
+                    <p class="count">9163</p>
+                    <div class="chart-bar char1" data-target="15%"></div>
+                    <div class="day">12</div>
+                    <div class="years">2016</div>
+                </li>
+                <li>
+                    <p class="count">9428</p>
+                    <div class="chart-bar char2" data-target="21%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2017</div>
+                </li>
+                <li>
+                    <p class="count">9677</p>
+                    <div class="chart-bar char3" data-target="26%"></div>
+                    <div class="day">02</div>
+                </li>
+                <li>
+                    <p class="count">9800</p>
+                    <div class="chart-bar char5" data-target="30%"></div>
+                    <div class="day">03</div>
+                </li>
+                <li>
+                    <p class="count">9957</p>
+                    <div class="chart-bar char6" data-target="33%"></div>
+                    <div class="day">04</div>
+                </li>
+                <li>
+                    <p class="count">10177</p>
+                    <div class="chart-bar char6" data-target="38%"></div>
+                    <div class="day">05</div>
+                </li>
+                <li>
+                    <p class="count">10350</p>
+                    <div class="chart-bar char7" data-target="42%"></div>
+                    <div class="day">06</div>
+                </li>
+                <li>
+                    <p class="count">10538</p>
+                    <div class="chart-bar char9" data-target="46%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">10644</p>
+                    <div class="chart-bar char10" data-target="49%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">10852</p>
+                    <div class="chart-bar char11" data-target="53.5%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">11134</p>
+                    <div class="chart-bar char12" data-target="55%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">11736</p>
+                    <div class="chart-bar char13" data-target="73.9%"></div>
+                    <div class="day">11</div>
+                </li>
+                <li>
+                    <p class="count">11785</p>
+                    <div class="chart-bar char14" data-target="75%"></div>
+                    <div class="day">12</div>
+                </li>
+                <li>
+                    <p class="count">11847</p>
+                    <div class="chart-bar char15" data-target="76%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2018</div>
+
+                </li>
+                <li>
+                    <p class="count">11874</p>
+                    <div class="chart-bar char16" data-target="77.6%"></div>
+                    <div class="day">02</div>
+                </li>
+                <li>
+                    <p class="count">12024</p>
+                    <div class="chart-bar char17" data-target="80.5%"></div>
+                    <div class="day">03</div>
+                </li>
+                <li>
+                    <p class="count">12238</p>
+                    <div class="chart-bar char18" data-target="85.4%"></div>
+                    <div class="day">04</div>
+                </li>
+                <li>
+                    <p class="count">12349</p>
+                    <div class="chart-bar char19" data-target="87.4%"></div>
+                    <div class="day">05</div>
+                </li>
+                <li>
+                    <p class="count">12435</p>
+                    <div class="chart-bar char20" data-target="89.4%"></div>
+                    <div class="day">06</div>
+                </li>
+
+                <li>
+                    <p class="count">12515</p>
+                    <div class="chart-bar char21" data-target="91.6%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">12589</p>
+                    <div class="chart-bar char22" data-target="92.9%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">12657</p>
+                    <div class="chart-bar char23" data-target="94.5%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">12790</p>
+                    <div class="chart-bar char24" data-target="97.8%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">12885</p>
+                    <div class="chart-bar char24" data-target="100%"></div>
+                    <div class="day">11</div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="section" id="face-sec-4">
+        <div class="center-vertical"></div>
+        <div class="left-section">
+            <div class="intro">
+            <div class="top-space-400 pc"></div>
+            <div class="mobile" style="height: 100px;"></div>
+            <h1 class="section-title">게시물 참여율 <br>Engaged User 그래프</h1>
+            <p class="date-comment">2015.01.01-2018.10.31</p>
+            <p class="comment" style="width: 60%;">
+            <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="top-graph">
+                <div class="tg-section" id="tg-section">
+                    <div class="tg-1"></div>
+                    <div class="tg-2" id="tg-t-1">연도별 참여인원수</div>
+                    <div class="tg-3" id="tg-t-2">누적 인원</div>
+                </div>
+                <div class="tg-section" id="tg-section-1">
+                    <div class="tg-1">2018</div>
+                    <div class="tg-2 "><p>61,083</p><div class="bg-gra"></div></div>
+                    <div class="tg-3 count-1 face-count">0</div>
+                </div>
+                <div class="tg-section" id="tg-section-2">
+                    <div class="tg-1">2017</div>
+                    <div class="tg-2 "><p>67,086</p><div class="bg-gra"></div></div>
+                    <div class="tg-3 count-2 face-count">0</div>
+                </div>
+                <div class="tg-section" id="tg-section-3">
+                    <div class="tg-1">2016</div>
+                    <div class="tg-2 "><p>8,181</p><div class="bg-gra"></div></div>
+                    <div class="tg-3 count-3 face-count">0</div>
+                </div>
+                <div class="tg-section" id="tg-section-4">
+                    <div class="tg-1">2015</div>
+                    <div class="tg-2"><p>238</p><div class="bg-gra"></div></div>
+                    <div class="tg-3 count-4 face-count">0</div>
+                </div>
+                <div class="tg-section" id="tg-section-5">
+                    <div class="tg-1">2014</div>
+                    <div class="tg-2"><p></p><div class="bg-gra"></div></div>
+                    <div class="tg-3 count-5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="face-sec-5">
+        <div class="center-vertical"></div>
+        <div class="mobile mh-2"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title">년도별 가장 참여율 높은 포스트</h1>
+                <p class="date-comment">도달율 / 공유 / 좋아요기준</p>
+                <div class="box-ani">
+                    <a href="https://mailchi.mp/seoulnpocenter/npo-snjars1dwe" target="_blank">
+                        <div class="box-slide box-slide-face" id="box-slide-4">
+                            <div class="slide-hide">
+                                <h1>2016</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2016.11.17</span> <br>
+                                    2016제 2회 #미트쉐어 컨퍼런스 <br>
+                                    [활동의 맛] 소개 <br>
+                                    참여인원수: 831
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/39-startfragment" target="_blank">
+                        <div class="box-slide box-slide-face" id="box-slide-5">
+                            <div class="slide-hide">
+                                <h1>2017</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2017.11.23</span> <br>
+                                    [비영리스타트업, 그것이 궁금하다!] <br>
+                                    비영리스타트업(Nonprofit Startup)은 무엇인가요?
+                                    참여인원수: 3,455
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/38" target="_blank">
+                        <div class="box-slide box-slide-face" id="box-slide-6">
+                            <div class="slide-hide">
+                                <h1>2018</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2018.9.20</span> <br>
+                                    [2018 NPO 파트너 페어] <br>
+                                    변화를 만드는 만남 연결의 가능성을 증명하는 곳
+                                    참여인원수: 2,591
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile mh"></div>
+    </div>
+    <div class="section" id="face-sec-6">
+        <div class="center-vertical"></div>
+        <div class="pc" style="height: 80px;"></div>
+        <div class="mobile mh-2"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title">최고 접속 요일 + 시간대</h1>
+                <div class="bold-line"></div>
+                <ul class="circle-list">
+                    <li>일</li>
+                    <li>월</li>
+                    <li>화</li>
+                    <li>수</li>
+                    <div class="clearfix mobile"></div>
+                    <li class="white mo-w">목</li>
+                    <li class="white mo-w">금</li>
+                    <li class="white mo-w">토</li>
+                    <div class="clearfix"></div>
+                </ul>
+                <p class="comment" style="text-align: center;">평균적으로 접속율이 높은 요일은 목, 금, 토요일입니다.</p>
+                <div class="bold-line"></div>
+                <img src="img/3pm.png" alt="" class="watch">
+                <img src="img/9pm.png" alt="" class="watch">
+                <p class="comment" style="text-align: center;">
+                    평균적 접속율이 높은 시간대는 오후 3시와 9시입니다.
+                </p>
+                <div class="bold-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== BLOG =======-->
+    <div class="section" id="blog-sec-1">
+        <div class="center-vertical"></div>
+        <div class="mobile mh"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title mobile">블로그</h1>
+                <div class="img-line">
+                    <img src="img/blog@2x.png">
+                    <a href="http://snpo2013.blog.me" class="img-link" target="_blank">snpo2013.blog.me</a>
+                </div>
+                <p class="comment">
+                    센터의 주요 사업과 NPO 공익정보를 통합적으로 소개하는 채널입니다.
+                    참여하지 못한 센터 사업의 얘기가 자세하게 알고 싶다면 이곳을 찾아보세요.
+                    NPO센터의 인물, 다양한 정보와 흥미로운 공익 소식도 볼 수 있습니다.
+                </p>
+                <div class="comment-line"></div>
+                <p class="comment-2">
+                    2015년 7월에 처음 문을 연 이래 꾸준히  블로그. <br>
+                    흥미로운 공익정보와 NPO 이야기는 특히 네이버 메인에 자주 소개되었어요.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="blog-sec-2">
+        <div class="center-vertical"></div>
+        <div class="mobile mh-2"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title" id="mb-m-80">숫자로 보이는 데이터</h1>
+                <div class="box blog-box" style="padding: 0; margin-bottom: -4px;">
+                    <div class="box-1 box1">
+                        <h2>방문자수</h2>
+                        <p class="number count blog-count-1"></p>
+                        <p class="box-comment">
+                            2016.1.1-2018.10.31 <br> 기준
+                        </p>
+                    </div>
+                    <div class="box-1">
+                        <h2>연령대</h2>
+                        <p class="number count"><span class="blog-count-2">0</span>-<span class="blog-count-2-2">0</span></p>
+                        <p class="box-comment">
+                            2016.1.1-2018.10.31 <br> 기준
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="box blog-box" style="padding: -0px;">
+                    <div class="box-1 box1">
+                        <h2>남:여 비율</h2>
+                        <p class="number count"><span class="blog-count-3">0</span>:<span class="blog-count-3-3">0</span></p>
+                        <p class="box-comment">
+                            2016.1.1-2018.10.31 <br> 기준
+                        </p>
+                    </div>
+                    <div class="box-1">
+                        <h2>콘텐츠 개수</h2>
+                        <p class="number count blog-count-4">0</p>
+                        <p class="box-comment">
+                            2016.1.1-2018.10.31 <br> 기준
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="blog-sec-3">
+        <div class="center-vertical"></div>
+        <div class="z-box mt-80">
+            <div class="intro">
+                <h1 class="section-title">콘텐츠 수 그래프</h1>
+                <p class="date-comment">2015-2018</p>
+            </div>
+        </div>
+        <div style="height: 320px;"></div>
+        <div class="chart-line blog-chart" id="blog-chart-1">
+            <div class="next" id="blog-chart-1-next"><img src="img/arrow.png"></div>
+            <ul>
+                <li style="border: 0;">
+                    <p><br></p>
+                    <div class="day"></div>
+                    <div class="years"></div>
+                </li>
+                <li>
+                    <p class="count">26</p>
+                    <div class="chart-bar char1" data-target="78%"></div>
+                    <div class="day">07</div>
+                    <div class="years">2015</div>
+                </li>
+                <li>
+                    <p class="count">2</p>
+                    <div class="chart-bar char2" data-target="6%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">10</p>
+                    <div class="chart-bar char3" data-target="30%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">6</p>
+                    <div class="chart-bar char5" data-target="18%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">8</p>
+                    <div class="chart-bar char6" data-target="24%"></div>
+                    <div class="day">11</div>
+                </li>
+                <li>
+                    <p class="count">2</p>
+                    <div class="chart-bar char6" data-target="6%"></div>
+                    <div class="day">12</div>
+                </li>
+                <li>
+                    <p class="count">6</p>
+                    <div class="chart-bar char7" data-target="18%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2016</div>
+                </li>
+                <li>
+                    <p class="count">4</p>
+                    <div class="chart-bar char8" data-target="12%"></div>
+                    <div class="day">02</div>
+                </li>
+
+                <li>
+                    <p class="count">2</p>
+                    <div class="chart-bar char9" data-target="6%"></div>
+                    <div class="day">03</div>
+                </li>
+                <li>
+                    <p class="count">1</p>
+                    <div class="chart-bar char10" data-target="3%"></div>
+                    <div class="day">04</div>
+                </li>
+                <li>
+                    <p class="count">16</p>
+                    <div class="chart-bar char11" data-target="48%"></div>
+                    <div class="day">05</div>
+                </li>
+                <li>
+                    <p class="count">9</p>
+                    <div class="chart-bar char12" data-target="27%"></div>
+                    <div class="day">06</div>
+                </li>
+                <li>
+                    <p class="count">18</p>
+                    <div class="chart-bar char13" data-target="54%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">16</p>
+                    <div class="chart-bar char14" data-target="48%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">11</p>
+                    <div class="chart-bar char15" data-target="33%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">10</p>
+                    <div class="chart-bar char16" data-target="30%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">18</p>
+                    <div class="chart-bar char17" data-target="54%"></div>
+                    <div class="day">11</div>
+                </li>
+                <li>
+                    <p class="count">8</p>
+                    <div class="chart-bar char18" data-target="24%"></div>
+                    <div class="day">12</div>
+                </li>
+                <li>
+                    <p class="count">7</p>
+                    <div class="chart-bar char19" data-target="21%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2017</div>
+                </li>
+                <li>
+                    <p class="count">5</p>
+                    <div class="chart-bar char20" data-target="15%"></div>
+                    <div class="day">02</div>
+                </li>
+
+                <li>
+                    <p class="count">8</p>
+                    <div class="chart-bar char21" data-target="24%"></div>
+                    <div class="day">03</div>
+                </li>
+                <li>
+                    <p class="count">12</p>
+                    <div class="chart-bar char22" data-target="36%"></div>
+                    <div class="day">04</div>
+                </li>
+                <li>
+                    <p class="count">5</p>
+                    <div class="chart-bar char23" data-target="15%"></div>
+                    <div class="day">05</div>
+                </li>
+                <li>
+                    <p class="count">3</p>
+                    <div class="chart-bar char24" data-target="9%"></div>
+                    <div class="day">06</div>
+                </li>
+                <li>
+                    <p class="count">6</p>
+                    <div class="chart-bar char25" data-target="18%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">15</p>
+                    <div class="chart-bar char26" data-target="45%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">10</p>
+                    <div class="chart-bar char27" data-target="30%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">6</p>
+                    <div class="chart-bar char28" data-target="18%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">8</p>
+                    <div class="chart-bar char29" data-target="24%"></div>
+                    <div class="day">11</div>
+                </li>
+                <li>
+                    <p class="count">11</p>
+                    <div class="chart-bar char30" data-target="33%"></div>
+                    <div class="day">12</div>
+                </li>
+                <li>
+                    <p class="count">4</p>
+                    <div class="chart-bar char31" data-target="12%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2018</div>
+                </li>
+                <li>
+                    <p class="count">4</p>
+                    <div class="chart-bar char32" data-target="12%"></div>
+                    <div class="day">02</div>
+                </li>
+                <li>
+                    <p class="count">3</p>
+                    <div class="chart-bar char33" data-target="9%"></div>
+                    <div class="day">03</div>
+                </li>
+                <li>
+                    <p class="count">11</p>
+                    <div class="chart-bar char34" data-target="33%"></div>
+                    <div class="day">04</div>
+                </li>
+                <li>
+                    <p class="count">8</p>
+                    <div class="chart-bar char35" data-target="24%"></div>
+                    <div class="day">05</div>
+                </li>
+                <li>
+                    <p class="count">13</p>
+                    <div class="chart-bar char36" data-target="39%"></div>
+                    <div class="day">06</div>
+                </li>
+                <li>
+                    <p class="count">19</p>
+                    <div class="chart-bar char37" data-target="57%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">20</p>
+                    <div class="chart-bar char38" data-target="60%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">19</p>
+                    <div class="chart-bar char39" data-target="57%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">31</p>
+                    <div class="chart-bar char40" data-target="100%"></div>
+                    <div class="day">10</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="section" id="blog-sec-4">
+        <div class="center-vertical"></div>
+        <div class="z-box mt-80">
+            <div class="intro">
+                <h1 class="section-title">월별 조회수 그래프</h1>
+                <p class="date-comment">2015-2018</p>
+            </div>
+        </div>
+        <div style="height: 320px;"></div>
+        <div class="chart-line blog-chart" id="blog-chart-2">
+            <div class="next" id="blog-chart-2-next"><img src="img/arrow.png"></div>
+            <ul>
+                <li style="border: 0;">
+                    <p><br></p>
+                    <div class="day"></div>
+                    <div class="years"></div>
+                </li>
+                <li>
+                    <p class="count">949</p>
+                    <div class="chart-bar char1" data-target="5.22%"></div>
+                    <div class="day">07</div>
+                    <div class="years">2015</div>
+                </li>
+                <li>
+                    <p class="count">36</p>
+                    <div class="chart-bar char2" data-target="2%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">1068</p>
+                    <div class="chart-bar char3" data-target="6%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">476</p>
+                    <div class="chart-bar char5" data-target="3.9%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">460</p>
+                    <div class="chart-bar char6" data-target="3%"></div>
+                    <div class="day">11</div>
+                </li>
+                <li>
+                    <p class="count">294</p>
+                    <div class="chart-bar char6" data-target="2.5%"></div>
+                    <div class="day">12</div>
+                </li>
+                <li>
+                    <p class="count">405</p>
+                    <div class="chart-bar char7" data-target="3%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2016</div>
+                </li>
+                <li>
+                    <p class="count">949</p>
+                    <div class="chart-bar char8" data-target="5.2%"></div>
+                    <div class="day">02</div>
+                </li>
+
+                <li>
+                    <p class="count">130</p>
+                    <div class="chart-bar char9" data-target="2.5%"></div>
+                    <div class="day">03</div>
+                </li>
+                <li>
+                    <p class="count">4963</p>
+                    <div class="chart-bar char10" data-target="15.4%"></div>
+                    <div class="day">05</div>
+                </li>
+                <li>
+                    <p class="count">37357</p>
+                    <div class="chart-bar char11" data-target="94%"></div>
+                    <div class="day">06</div>
+                    <div class="chart-tag">“[비영리 사례]주차장을 찾고 계신가요?” 가 네이버 메인에 소개되면서 많은 방문자들이 다녀갔어요.</div>
+                </li>
+                <li>
+                    <p class="count">25641</p>
+                    <div class="chart-bar char12" data-target="69.5%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">15884</p>
+                    <div class="chart-bar char13" data-target="44%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">5748</p>
+                    <div class="chart-bar char14" data-target="18%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">20303</p>
+                    <div class="chart-bar char15" data-target="56%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">20624</p>
+                    <div class="chart-bar char16" data-target="56.4%"></div>
+                    <div class="day">11</div>
+                </li>
+                <li>
+                    <p class="count">3853</p>
+                    <div class="chart-bar char17" data-target="12.2%"></div>
+                    <div class="day">12</div>
+                </li>
+                <li>
+                    <p class="count">12020</p>
+                    <div class="chart-bar char18" data-target="33.6%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2017</div>
+
+                </li>
+                <li>
+                    <p class="count">3967</p>
+                    <div class="chart-bar char19" data-target="12%"></div>
+                    <div class="day">02</div>
+                </li>
+                <li>
+                    <p class="count">4336</p>
+                    <div class="chart-bar char20" data-target="14%"></div>
+                    <div class="day">03</div>
+                </li>
+
+                <li>
+                    <p class="count">2968</p>
+                    <div class="chart-bar char21" data-target="10%"></div>
+                    <div class="day">04</div>
+                </li>
+                <li>
+                    <p class="count">1376</p>
+                    <div class="chart-bar char22" data-target="6.2%"></div>
+                    <div class="day">05</div>
+                </li>
+                <li>
+                    <p class="count">504</p>
+                    <div class="chart-bar char23" data-target="4%"></div>
+                    <div class="day">06</div>
+                </li>
+                <li>
+                    <p class="count">2545</p>
+                    <div class="chart-bar char24" data-target="9%"></div>
+                    <div class="day">07</div>
+                </li>
+                <li>
+                    <p class="count">8861</p>
+                    <div class="chart-bar char25" data-target="25.6%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">6489</p>
+                    <div class="chart-bar char26" data-target="19.5%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">5207</p>
+                    <div class="chart-bar char27" data-target="16%"></div>
+                    <div class="day">10</div>
+                </li>
+                <li>
+                    <p class="count">2555</p>
+                    <div class="chart-bar char28" data-target="9%"></div>
+                    <div class="day">11</div>
+                </li>
+                <li>
+                    <p class="count">4089</p>
+                    <div class="chart-bar char29" data-target="13%"></div>
+                    <div class="day">12</div>
+                </li>
+                <li>
+                    <p class="count">1251</p>
+                    <div class="chart-bar char30" data-target="6%"></div>
+                    <div class="day">01</div>
+                    <div class="years">2018</div>
+                </li>
+                <li>
+                    <p class="count">1601</p>
+                    <div class="chart-bar char31" data-target="6.9%"></div>
+                    <div class="day">02</div>
+                </li>
+                <li>
+                    <p class="count">644</p>
+                    <div class="chart-bar char32" data-target="4.4%"></div>
+                    <div class="day">03</div>
+                </li>
+                <li>
+                    <p class="count">8522</p>
+                    <div class="chart-bar char32" data-target="24.5%"></div>
+                    <div class="day">04</div>
+                </li><li>
+                <p class="count">4983</p>
+                <div class="chart-bar char32" data-target="16%"></div>
+                <div class="day">05</div>
+            </li><li>
+                <p class="count">3306</p>
+                <div class="chart-bar char32" data-target="11%"></div>
+                <div class="day">06</div>
+            </li><li>
+                <p class="count">5213</p>
+                <div class="chart-bar char32" data-target="16%"></div>
+                <div class="day">07</div>
+            </li>
+                <li>
+                    <p class="count">5880</p>
+                    <div class="chart-bar char32" data-target="18%"></div>
+                    <div class="day">08</div>
+                </li>
+                <li>
+                    <p class="count">4909</p>
+                    <div class="chart-bar char32" data-target="15%"></div>
+                    <div class="day">09</div>
+                </li>
+                <li>
+                    <p class="count">9128</p>
+                    <div class="chart-bar char32" data-target="26%"></div>
+                    <div class="day">10</div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="section" id="blog-sec-5">
+        <div class="center-vertical"></div>
+        <div class="mobile mh-2"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title">년도별 가장 인기있었던 블로그 포스트</h1>
+                <p class="date-comment">조회수 기준</p>
+                <div class="box-ani">
+                    <a href="https://mailchi.mp/seoulnpocenter/npo-snjars1dwe" target="_blank">
+                        <div class="box-slide box-slide-blog" id="box-slide-7">
+                            <div class="slide-hide">
+                                <h1>2016</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2016.6.21</span> <br>
+                                    [비영리 사례] 주차장을 찾고 계신가요? 공유경제로 해결!
+                                    '모두의 주차장'을 소개합니다. <br>
+                                    조회수: 21,703회
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/39-startfragment" target="_blank">
+                        <div class="box-slide box-slide-blog" id="box-slide-8">
+                            <div class="slide-hide">
+                                <h1>2017</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2017.1.2</span> <br>
+                                    [윤리적 소비 운동] 화장품 동물 실험을 안하는 착한 회사
+                                    리스트를 소개합니다. <br>
+                                    조회수: 6,257회
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/38" target="_blank">
+                        <div class="box-slide box-slide-blog" id="box-slide-9">
+                            <div class="slide-hide">
+                                <h1>2018</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2018.10.12</span> <br>
+                                    주거 의제 실험실 '서울 하우징랩 (SEOUL HOUSING LAB)' <br>
+                                    조회수: 3,642회
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile mh-2"></div>
+    </div>
+    <div class="section" id="blog-sec-6">
+        <div class="center-vertical"></div>
+        <div class="z-box mt-80">
+            <div class="intro">
+                <h1 class="section-title">검색어 순</h1>
+                <p class="date-comment">2016-2018</p>
+                <ul class="ranking" style="display: none;">
+                    <div class="search" style="display: none;"><i class="fa fa-search"></i></div>
+                    <li><span>#1</span>메일침프</li>
+                    <div class="rank-slide">
+                    <li><span>#2</span>NGO NPO</li>
+                    <li><span>#3</span>페미니즘 책 추천</li>
+                    <li><span>#4</span>박영호</li>
+                    <li><span>#5</span>비영리법인 회계</li>
+                    <li><span>#6</span>노동법</li>
+                    <li><span>#7</span>이브콘돔스</li>
+                    <li><span>#8</span>협업도구</li>
+                    <li><span>#9</span>제로웨이스트</li>
+                    <li style="border-bottom: 4px solid #fff;"><span>#10</span>이니스프리 동물실험 </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--======= aka =======-->
+    <div class="section" id="aka-sec-1">
+        <div class="center-vertical"></div>
+        <div class="mh"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title mobile">아카이브</h1>
+                <div class="img-line">
+                    <img src="img/archive@2x.png">
+                    <a href="http://www.facebook.com/seoulnpocenter" class="img-link" target="_blank">센터 아카이브 바로가기</a>
+                </div>
+                <p class="comment">
+                    활동가 등 NPO 영역에서 일하는 실무자에게 필요한 공익정보를 모아놓은 채널입니다.
+                    [시민사회 생산물을 모으는 저장소]와 [공익활동을 더 쉽게]
+                    돕는 정보창구 두 가지 목적으로 운영하고 있어요.
+                </p>
+                <div class="comment-line"></div>
+                <p class="comment-2">
+                    2014년 3월 첫 자료가 올라온 이래 꾸준히 공익정브의 자료창고역할을 하고 있는 아카이브! 공유하고
+                    싶은 공익자료를 누구든지 자유롭게 올릴 수 있도록 하고 있으나 자료 관리를 위해 현재는
+                    큐레이터들의 활동으로 운영되고 있습니다.
+                    * 게시물은 여전히 자유롭게 올릴 수 있고 관리자가 확인 뒤 공개합니다.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="aka-sec-2">
+        <div class="center-vertical"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title">숫자로 보이는 데이터</h1>
+                <div class="box">
+                    <div class="box-1 box1">
+                        <h2>전체 컨텐츠 수</h2>
+                        <p class="number count aka-count-1">0</p>
+                        <p class="box-comment">
+                            2018.12.31 <br> 기준
+                        </p>
+                    </div>
+                    <div class="box-1">
+                        <h2>큐레이터</h2>
+                        <p class="number count aka-count-2">0</p>
+                        <p class="box-comment">
+                            지금까지 68명의 큐레이터들이 <br class="pc">
+                            센터 아카이브에 자료를 올려주셨습니다
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--<p class="comment">-->
+                <!--뉴스레터를 NPO센터의 소식을 내 메일함에서 쉽게, <br>-->
+                <!--그리고 정기적으로 받아볼 수 있는 채널입니다.-->
+                <!--</p>-->
+            </div>
+        </div>
+    </div>
+    <div class="section" id="aka-sec-3">
+        <div class="center-vertical"></div>
+        <div class="z-box mt-80">
+            <div class="intro">
+                <h1 class="section-title">컨텐츠수 그래프</h1>
+                <p class="date-comment">2016.06.01-2018.12.31</p>
+            </div>
+        </div>
+        <div style="height: 400px;"></div>
+        <div class="chart-line aka-chart-line aka-chart-line-1" id="aka-chart-1">
+            <div class="next" id="aka-chart-1-next"><img src="img/arrow.png"></div>
+            <ul class="aka-chart-top">
+                <li style="border: 0;">
+                    <div class="chart-menu">
+                        <p class="tag-9"><span></span>미분류</p>
+                        <p class="tag-8"><span></span>소식과 행</p>
+                        <p class="tag-7"><span></span>NPO보고서</p>
+                        <p class="tag-6"><span></span>도서/연규자</p>
+                        <p class="tag-5"><span></span>실무 도구</p>
+                        <p class="tag-4"><span></span>활동 사례</p>
+                        <p class="tag-3"><span></span>현황과 이슈</p>
+                        <p class="tag-2"><span></span>기획 아카이브</p>
+                        <p class="tag-1"><span></span>NPO센터 발간 자료</p>
+                    </div>
+                </li>
+                <li>
+                    <p>205</p>
+                    <div class="boxbox">
+                        <div class="chart-box aka-chart-1" id="char1-1">3</div>
+                        <div class="chart-box aka-chart-4" id="char1-2">37</div>
+                        <div class="chart-box aka-chart-5" id="char1-3">40</div>
+                        <div class="chart-box aka-chart-6" id="char1-4">37</div>
+                        <div class="chart-box aka-chart-7" id="char1-5">86</div>
+                    </div>
+                    <div class="aka-years">2014</div>
+                </li>
+                <li>
+                    <p>345</p>
+                    <div class="boxbox">
+                        <div class="chart-box aka-chart-1" id="char2-1">19</div>
+                        <div class="chart-box aka-chart-2" id="char2-2">5</div>
+                        <div class="chart-box aka-chart-4" id="char2-3">90</div>
+                        <div class="chart-box aka-chart-5" id="char2-4">59</div>
+                        <div class="chart-box aka-chart-6" id="char2-5">20</div>
+                        <div class="chart-box aka-chart-7" id="char2-6">146</div>
+                        <div class="chart-box aka-chart-9" id="char2-7">1</div>
+                    </div>
+                    <div class="aka-years">2015</div>
+                </li>
+                <li>
+                    <p>632</p>
+                    <div class="boxbox">
+                        <div class="chart-box aka-chart-1" id="char3-1">21</div>
+                        <div class="chart-box aka-chart-2" id="char3-2">5</div>
+                        <div class="chart-box aka-chart-3" id="char3-3">93</div>
+                        <div class="chart-box aka-chart-4" id="char3-4">96</div>
+                        <div class="chart-box aka-chart-5" id="char3-5">67</div>
+                        <div class="chart-box aka-chart-6" id="char3-6">194</div>
+                        <div class="chart-box aka-chart-7" id="char3-7">82</div>
+                        <div class="chart-box aka-chart-8" id="char3-8">1</div>
+                        <div class="chart-box aka-chart-9" id="char3-9">4</div>
+                    </div>
+                    <div class="aka-years">2016</div>
+                </li>
+                <li>
+                    <p>419</p>
+                    <div class="boxbox">
+                        <div class="chart-box aka-chart-1" id="char4-1">10</div>
+                        <div class="chart-box aka-chart-2" id="char4-2">4</div>
+                        <div class="chart-box aka-chart-3" id="char4-3">51</div>
+                        <div class="chart-box aka-chart-4" id="char4-4">39</div>
+                        <div class="chart-box aka-chart-5" id="char4-5">86</div>
+                        <div class="chart-box aka-chart-6" id="char4-6">96</div>
+                        <div class="chart-box aka-chart-7" id="char4-7">18</div>
+                        <div class="chart-box aka-chart-8" id="char4-8">110</div>
+                    </div>
+                    <div class="aka-years">2017</div>
+                </li>
+                <li>
+                    <p>191</p>
+                    <div class="boxbox">
+                        <div class="chart-box aka-chart-1" id="char5-1">11</div>
+                        <div class="chart-box aka-chart-2" id="char5-2">5</div>
+                        <div class="chart-box aka-chart-3" id="char5-3">64</div>
+                        <div class="chart-box aka-chart-4" id="char5-4">33</div>
+                        <div class="chart-box aka-chart-5" id="char5-5">37</div>
+                        <div class="chart-box aka-chart-6" id="char5-6">18</div>
+                        <div class="chart-box aka-chart-7" id="char5-7">16</div>
+                        <div class="chart-box aka-chart-8" id="char5-8">7</div>
+                    </div>
+                    <div class="aka-years">2018</div>
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+    </div>
+    <div class="section" id="aka-sec-4">
+        <div class="center-vertical"></div>
+        <div class="z-box mt-80">
+            <div class="intro">
+                <h1 class="section-title">컨텐츠 유형 그래프</h1>
+                <p class="date-comment">2014-2018</p>
+            </div>
+        </div>
+        <div style="height: 400px;"></div>
+        <div class="chart-line aka-chart-line aka-chart-line-2" id="aka-chart-2">
+            <div class="next" id="aka-chart-2-next"><img src="img/arrow.png"></div>
+            <ul class="aka-chart">
+                <li class="aka-chart-1">
+                   <p>64</p>
+                </li>
+                <li class="aka-chart-2">
+                    <p>19</p>
+                </li>
+                <li class="aka-chart-3">
+                    <p>208</p>
+                </li>
+                <li class="aka-chart-4">
+                    <p>295</p>
+                </li>
+                <li class="aka-chart-5">
+                    <p>289</p>
+                </li>
+                <li class="aka-chart-6">
+                    <p>365</p>
+                </li>
+                <li class="aka-chart-7">
+                    <p>415</p>
+                </li>
+                <li class="aka-chart-8">
+                    <p>118</p>
+                </li>
+               <li class="aka-chart-9">
+                    <p>5</p>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+            <div class="model">
+                <p class="tag-1"><span></span>NPO센터 발간 자료</p>
+                <p class="tag-2"><span></span>기획 아카이브</p>
+                <p class="tag-3"><span></span>현황과 이슈</p>
+                <p class="tag-4"><span></span>활동 사례</p>
+                <p class="tag-5"><span></span>실무 도구</p>
+                <p class="tag-6"><span></span>도서/연규자</p>
+                <p class="tag-7"><span></span>NPO보고서</p>
+                <p class="tag-8"><span></span>소식과 행</p>
+                <p class="tag-9"><span></span>미분류</p>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="aka-sec-5">
+        <div class="center-vertical"></div>
+        <div class="mobile mh-2"></div>
+        <div class="z-box">
+            <div class="intro">
+                <h1 class="section-title">년도별 가장 인기있었던 아카이브</h1>
+                <p class="date-comment">조회수 기준</p>
+                <div class="box-ani w100">
+                    <a href="https://mailchi.mp/seoulnpocenter/npo-snjars1dwe" target="_blank">
+                        <div class="box-slide box-slide-aka" id="box-slide-10">
+                            <div class="slide-hide">
+                                <h1>2014</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2014.4.21</span> <br>
+                                    무료 한글폰트 400종을 한 자리에서 만나다 - 네이버 Software <br>
+                                    작성자: socialjung <br>
+                                    조회수: 85,458
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/39-startfragment" target="_blank">
+                        <div class="box-slide box-slide-aka" id="box-slide-11" style="margin: 0 40px;">
+                            <div class="slide-hide">
+                                <h1>2015</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2015.08.20</span> <br>
+                                    [가이드] 비영리법인 세무회계 가이드(2015)_한국공인회계사회 <br>
+                                    작성자: NPO지원 센터 <br>
+                                    조회수: 17,729회
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/38" target="_blank">
+                        <div class="box-slide box-slide-aka" id="box-slide-12">
+                            <div class="slide-hide">
+                                <h1>2016</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2016.06.08</span> <br>
+                                    국내 크라우드 펀딩 플랫폼의 모든 것 1탄(후원형) <br>
+                                    작성자: 아지 <br>
+                                    조회수: 24,981회
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/38" target="_blank">
+                        <div class="box-slide box-slide-aka" id="box-slide-13">
+                            <div class="slide-hide">
+                                <h1>2017</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2017.06.12</span> <br>
+                                    무료 논문 아카이브 사이트(Open Access)소개 <br>
+                                    작성자: Jussi <br>
+                                    조회수: 12,621회
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mailchi.mp/seoulnpocenter/38" target="_blank">
+                        <div class="box-slide box-slide-aka" id="box-slide-14">
+                            <div class="slide-hide">
+                                <h1>2018</h1>
+                                <p class="fz-18"></p>
+                                <p>
+                                    <span class="fz-18">2018.05.08</span> <br>
+                                    LivingLab(리빙랩) 소개와 국, 내외 사례 소개 <br>
+                                    작성자: Jussi <br>
+                                    조회수: 3,959회
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile mh-2"></div>
+    </div>
+    <div class="section" id="aka-sec-6">
+        <div class="center-vertical"></div>
+        <div class="mobile mh-2"></div>
+        <div class="z-box mt-80">
+            <div class="intro">
+                <h1 class="section-title">2018년 새롭게 등장한 키워드</h1>
+                <p class="date-comment">2016-2018</p>
+                <ul class="keyword">
+                    <a href="#"><li>GEN Z</li></a>
+                    <a href="#"><li>HR</li></a>
+                    <a href="#"><li>MBTI</li></a>
+                    <a href="#"><li>NGO&비영리</li></a>
+                    <a href="#"><li>S/W&도구</li></a>
+                    <a href="#"><li>게임</li></a>
+                    <a href="#"><li>공익기념일</li></a>
+                    <a href="#"><li>기본소득</li></a>
+                    <a href="#"><li>기부</li></a>
+                    <a href="#"><li>노동</li></a>
+                    <a href="#"><li>농업</li></a>
+                    <a href="#"><li>뉴스</li></a>
+                    <a href="#"><li>뉴스레터&이메일</li></a>
+                    <a href="#"><li>대안적 삶</li></a>
+                    <a href="#"><li>도시공원</li></a>
+                    <a href="#"><li>디자인&이미지</li></a>
+                    <a href="#"><li>디지털 혁신</li></a>
+                    <a href="#"><li>리더십</li></a>
+                    <a href="#"><li>리빙랩</li></a>
+                    <a href="#"><li>모금/펀드</li></a>
+                    <a href="#"><li>미세먼지</li></a>
+                    <a href="#"><li>미트쉐어</li></a>
+                    <a href="#"><li>민주시민</li></a>
+                    <a href="#"><li>법률</li></a>
+                    <a href="#"><li>비영리스타트업</li></a>
+                    <a href="#"><li>비영리상담소</li></a>
+                    <a href="#"><li>비폭력</li></a>
+                    <a href="#"><li>빅테이터</li></a>
+                    <a href="#"><li>블록체인</li></a>
+                    <a href="#"><li>사회적 경제</li></a>
+                    <a href="#"><li>사회적 성과</li></a>
+                    <a href="#"><li>사회혁신</li></a>
+                    <a href="#"><li>성평등</li></a>
+                    <a href="#"><li>시민사회</li></a>
+                    <a href="#"><li>시민행동</li></a>
+                    <a href="#"><li>어린이날</li></a>
+                    <a href="#"><li>언론</li></a>
+                    <a href="#"><li>여성</li></a>
+                    <a href="#"><li>영화제</li></a>
+                    <a href="#"><li>오버투어리즘</li></a>
+                    <a href="#"><li>워라밸</li></a>
+                    <a href="#"><li>월경</li></a>
+                    <a href="#"><li>윤리적 소비</li></a>
+                    <a href="#"><li>음원</li></a>
+                    <a href="#"><li>인권</li></a>
+                    <a href="#"><li>저작권</li></a>
+                    <a href="#"><li>저치</li></a>
+                    <a href="#"><li>조직관리</li></a>
+                    <a href="#"><li>주민참여</li></a>
+                    <a href="#"><li>지속가능보고서</li></a>
+                    <a href="#"><li>지역</li></a>
+                    <a href="#"><li>지원사업</li></a>
+                    <a href="#"><li>청소년</li></a>
+                    <a href="#"><li>커먼즈</li></a>
+                    <a href="#"><li>크라우드 펀딩</li></a>
+                    <a href="#"><li>팟캐스트</li></a>
+                    <a href="#"><li>프로보노</li></a>
+                    <a href="#"><li>프라스틱</li></a>
+                    <a href="#"><li>해외 시민운동</li></a>
+                    <a href="#"><li>행사</li></a>
+                    <a href="#"><li>홈페이지</li></a>
+                    <a href="#"><li>홍보</li></a>
+                    <a href="#"><li>환경</li></a>
+                    <a href="#"><li>활동&활동가</li></a>
+                    <a href="#"><li>회계</li></a>
+                    <a href="#"><li>...</li></a>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="mh-2"></div>
+    </div>
+    <div class="section" id="aka-sec-7">
+        <div class="center-vertical"></div>
+        <div class="z-box mt-150">
+            <div class="intro">
+                <h1 class="section-title">2018 뉴스레터 특징</h1>
+                <ul class="circle-content" id="circle-content-2">
+                    <li>
+                        <img src="img/ft%2039@2x.png" alt="">
+                        <p>지난 자료도 꾸준히 조회수가 올라간다는 
+                            사실을 발견하고 에전에 올린 자료들을 현 시점에서
+                             활용할 수 있도록 수정보완하는 작업을 했습니다.</p>
+                    </li>
+                    <li>
+                        <img src="img/ft%20599@2x.png" alt="">
+                        <p>정성들여 콘텐츠를 만들었어요.
+                            하나의 자료에 여러 자료를 큐레이션 하는 방식으로 콘텐츠를 생산했어요.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="img/ft%20601@2x.png" alt="">
+                        <p>설문조사를 여러 번 진행하여 이용자 수요를
+                             반영한 콘텐츠를 만들고자 했어요. </p>
+                    </li>
+                    <div class="clearfix" style="height: 100px;"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
+<script type="text/javascript" src="js/scrolloverflow.js"></script>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="js/examples.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/numscroller-1.0.js"></script>
+<script src="js/prism.js"></script>
+<script src="js/page-animation.js"></script>
+</body>
+</html>
