@@ -517,20 +517,24 @@ h1,h2,h4,h5 {
 
 @media (min-height: 830px) {
 
-    .section .aka-chart-line-2 {
+    .section .aka-chart-line-2,
+    .section .aka-chart-line-1 {
         height: 500px!important;
     }
-
     .section .aka-chart-line-2 li {
-        height: 400px;
+        height: 400px!important;
         float: left;
+    }
+
+    .section .aka-chart-line-1 .aka-chart-top li {
+        height: 400px!important;
     }
 
 }
 
 .section .aka-chart-line-1 .aka-chart-top li {
     width: 16.66%;
-    height: 400px;
+    height: 295px;
     float: left;
 }
 
@@ -788,9 +792,10 @@ h1,h2,h4,h5 {
 .chart-menu p span {
     position: absolute;
     bottom: 4px;
-    left: -10px;
-    width: 5px;
-    height: 5px;
+    left: -12px;
+    top: 10px;
+    width: 8px;
+    height: 8px;
     float: left;
     border-radius: 50% 50%;
 }

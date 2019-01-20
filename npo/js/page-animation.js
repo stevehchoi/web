@@ -219,8 +219,8 @@ var myFullpage = new fullpage('#fullpage', {
             $("#current").text('2');
             $("#end").text('6');0
             $('#news-sec-2').addClass('animated fadeInUp slow');
-            numberCount2('news-count-1',1500, 87);
-            numberCount2('news-count-2',1500, 5949);
+            numberCount2('news-count-1',1500, 55);
+            numberCount2('news-count-2',1500, 8989);
         } else if(index.anchor == 'news-3') {
             $("#current").text('3');
             $("#end").text('6');
@@ -285,7 +285,7 @@ var myFullpage = new fullpage('#fullpage', {
                     $("#tg-section-3 .bg-gra").stop().animate({height: '100%'}, 700, function () {
                         numberCount2('count-2',700, 75505);
                         $("#tg-section-2 .bg-gra").stop().animate({height: '100%'}, 700, function () {
-                            numberCount2('count-1',700, 137588);
+                            numberCount2('count-1',700, 136588);
                             $("#tg-section-1 .bg-gra").stop().animate({height: '100%'}, 700);
                         })
                     })
@@ -319,7 +319,7 @@ var myFullpage = new fullpage('#fullpage', {
             numberCount2('blog-count-2-2',1500, 29);
             numberCount2('blog-count-3',1500, 32);
             numberCount2('blog-count-3-3',1500, 68);
-            numberCount2('blog-count-4',1500, 301);
+            numberCount2('blog-count-4',1500, 401);
         } else if(index.anchor == 'blog-3') {
             $("#current").text('3');
             $("#end").text('6');
